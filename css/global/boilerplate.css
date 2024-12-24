@@ -1,0 +1,32 @@
+/* for css variable */
+:root {
+  --gradient-one: linear-gradient(#7755ff 100%, #6943ff 100%, #2f2ce9 100%);
+  --gradient-two: linear-gradient(#4d21c9 100%, #2521c9 0%, #2521c9 0%);
+  --very-light-blue: #ecf2ff;
+  --yellow: #ffb21e;
+  --yellow-white: rgba(255, 255, 255, 0.95);
+  --blue: #1125d6;
+  --blue-white: rgba(17, 37, 214, 0.05);
+  --green: #00bb8f;
+  --green-white: #7fffd4;
+  --red: #ff5555;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
