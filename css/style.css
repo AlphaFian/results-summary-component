@@ -1,0 +1,152 @@
+@import url(font.css);
+@import url(color.css);
+@import url(mediaqueries.css);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  background: #ecf2ff;
+  margin: 0 auto;
+}
+.container {
+  background: white;
+}
+.performance {
+  background: var(--color-gradient-1);
+  text-align: center;
+  padding-block: 24px 40px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 30px 0px 60px rgba(61, 108, 236, 0.15);
+}
+.performance h1,
+h2 {
+  color: var(--color-white);
+}
+
+.performance .title-header {
+  color: var(--color-light-blue);
+  font-size: var(--fs-3);
+  font-weight: 700;
+}
+.circle-container {
+  margin-inline: auto;
+  max-width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: var(--color-gradient-2);
+}
+.circle {
+  position: relative;
+  top: 10px;
+}
+.circle-value {
+  font-size: 70px;
+  font-weight: 800;
+  color: var(--color-white);
+}
+.value-of {
+  color: white;
+  font-size: var(--fs-4);
+  opacity: 51.68%;
+}
+.greet p {
+  color: var(--color-light-blue);
+}
+.performance .greet {
+  margin-inline: auto;
+  width: 260px;
+}
+.performance .greet h2 {
+  font-size: var(--fs-2);
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.performance .greet p {
+  font-size: var(--fs-4);
+}
+.detail {
+  padding-block: 24px 30px;
+  padding-inline: 30px;
+}
+.wrappers h3 {
+  font-size: var(--fs-3);
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  margin-bottom: 12px;
+}
+.flex {
+  border-radius: 16px;
+  align-items: center;
+}
+
+.flex img {
+  flex-grow: 1;
+}
+.flex .title {
+  flex-grow: 5;
+}
+.flex .result {
+  flex-grow: 1;
+}
+.red {
+  background: var(--color-red-95);
+}
+.yellow {
+  background: var(--color-yellow-95);
+}
+.green {
+  background: var(--color-green-95);
+}
+.blue {
+  background: var(--color-blue-95);
+}
+.red .title {
+  color: var(--color-red);
+}
+.yellow .title {
+  color: var(--color-yellow);
+}
+.green .title {
+  color: var(--color-green);
+}
+.blue .title {
+  color: var(--color-blue);
+}
+.card .result {
+  color: var(--color-dark-navy);
+  font-weight: 700;
+}
+.result span {
+  color: var(--color-dark-navy);
+  opacity: 50%;
+}
+.blue {
+  margin-bottom: 24px;
+}
+.button {
+  width: 100%;
+  border-radius: 128px;
+  padding-block: 17px;
+  background: var(--color-dark-navy);
+  color: var(--color-white);
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  transition: background 150ms ease-in-out;
+  cursor: pointer;
+}
+.button:hover {
+  background: var(--color-gradient-1);
+}
+.attribution {
+  margin-top: 5px;
+}

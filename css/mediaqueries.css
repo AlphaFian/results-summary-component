@@ -1,0 +1,27 @@
+@media (min-width: 900px) {
+  body {
+    background: #ecf2ff;
+  }
+  .container {
+    width: 736px;
+    height: 512px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    margin: 10% auto;
+    border-radius: 30px;
+  }
+  .performance {
+    width: 368px;
+    flex-grow: 1;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  .detail {
+    height: 512px;
+    flex-grow: 1;
+  }
+  .button {
+    margin-top: 40px;
+  }
+}
